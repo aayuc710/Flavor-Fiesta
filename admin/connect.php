@@ -2,8 +2,8 @@
 
 $servername = 'localhost';
 $dbname = 'food_db';
-$username = 'root';
-$password = 'System #1234';
+$username = '';
+$password = '';
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
